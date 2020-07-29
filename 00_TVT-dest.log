@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  27 JUL 2020 19:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  29 JUL 2020 14:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2121,34 +2121,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--61
  []
 
 [4]
-Underfull \hbox (badness 3590) in paragraph at lines 89--90
+Underfull \hbox (badness 3590) in paragraph at lines 80--81
 \T1/lmr/m/n/10.95 ist auch der Vo-lu-men-strom an Kopf-pro-dukt sta-tio-när. Da
 -her kön-nen für das
  []
 
-[5]
-Underfull \hbox (badness 1264) in paragraph at lines 96--97
+
+Underfull \hbox (badness 1264) in paragraph at lines 87--88
 \T1/lmr/m/n/10.95 und senk-rech-ter auf $\OML/lmm/m/it/10.95 x[]$ \T1/lmr/m/n/1
 0.95 durch Ver-bin-den der bei-den Punk-te kon-stru-iert wer-den.
  []
 
 
-Underfull \hbox (badness 2837) in paragraph at lines 96--97
+Underfull \hbox (badness 2837) in paragraph at lines 87--88
 \T1/lmr/m/n/10.95 Die Stu-fen-kon-struk-ti-on er-folgt aus-ge-hend vom Schnitt-
 punkt von Dia-go-na-le und
  []
 
-<img/McCabe.png, id=41, 1417.295pt x 1053.9375pt>
+[5] <img/McCabe.png, id=41, 1417.295pt x 1053.9375pt>
 File: img/McCabe.png Graphic file (type png)
  <use img/McCabe.png>
-Package pdftex.def Info: img/McCabe.png used on input line 105.
-(pdftex.def)             Requested size: 426.79135pt x 317.37373pt.
+Package pdftex.def Info: img/McCabe.png used on input line 96.
+(pdftex.def)             Requested size: 298.75264pt x 222.15358pt.
 
+Underfull \hbox (badness 1389) in paragraph at lines 102--103
+\T1/lmr/m/n/10.95 Ent-hal-pi-en der Strö-me be-rech-net wer-den. Für die-se wie
+-der-um ist die spe-zi-fi-sche
+ []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./07_diskussion.tex [6]) (./011_fehlerbetrachtung.tex) [7 <./img/McCabe.png>
-]
+[6 <./img/McCabe.png>] [7]) (./07_diskussion.tex [8])
+(./011_fehlerbetrachtung.tex) [9]
 \openout2 = `09_anhang.aux'.
 
  (./09_anhang.tex)
@@ -2166,10 +2168,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 219.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
  ) 
 Here is how much of TeX's memory you used:
- 43725 strings out of 493029
- 986816 string characters out of 6136234
- 1181515 words of memory out of 5000000
- 46508 multiletter control sequences out of 15000+600000
+ 43727 strings out of 493029
+ 986862 string characters out of 6136234
+ 1186558 words of memory out of 5000000
+ 46510 multiletter control sequences out of 15000+600000
  84179 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,26n,81p,10374b,895s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2186,10 +2188,10 @@ share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/l
 msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 00_TVT-dest.pdf (8 pages, 505549 bytes).
+Output written on 00_TVT-dest.pdf (10 pages, 509548 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
+ 109 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
