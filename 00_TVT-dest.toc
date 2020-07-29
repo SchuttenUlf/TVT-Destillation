@@ -6,17 +6,17 @@
 \contentsline {section}{\numberline {5}Ergebnisse und Berechnungen}{4}{section.5}
 \contentsline {subsection}{\numberline {5.1}Bilanzen}{4}{subsection.5.1}
 \contentsline {subsubsection}{\numberline {5.1.1}Gesamte Kolonne}{4}{subsubsection.5.1.1}
-\contentsline {subsubsection}{\numberline {5.1.2}Kolonnenkopf}{4}{subsubsection.5.1.2}
-\contentsline {subsection}{\numberline {5.2}Berechnung der Zusammensetzung aus der Dichte}{4}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Umrechnung von Massen- in Molenbruch}{4}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.1.2}Kolonnenkopf}{5}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}Berechnung der Zusammensetzung aus der Dichte}{5}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Umrechnung von Massen- in Molenbruch}{5}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}Berechnung des Molenstromes}{5}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Berechnung des Molenstromes im Sumpf}{5}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}R\IeC {\"u}cklaufverh\IeC {\"a}ltnis}{5}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.5}Berechnung des Molenstromes im Sumpf}{6}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}R\IeC {\"u}cklaufverh\IeC {\"a}ltnis}{6}{subsection.5.6}
 \contentsline {subsection}{\numberline {5.7}McCabe-Thiele-Diagramm}{6}{subsection.5.7}
-\contentsline {subsection}{\numberline {5.8}Energiebilanz}{6}{subsection.5.8}
-\contentsline {subsubsection}{\numberline {5.8.1}W\IeC {\"a}rmekapazit\IeC {\"a}ten}{7}{subsubsection.5.8.1}
-\contentsline {subsubsection}{\numberline {5.8.2}Enthalpien der Str\IeC {\"o}me}{7}{subsubsection.5.8.2}
-\contentsline {subsubsection}{\numberline {5.8.3}K\IeC {\"u}hlleistung}{7}{subsubsection.5.8.3}
-\contentsline {subsubsection}{\numberline {5.8.4}Berechnung der Heizleistung}{8}{subsubsection.5.8.4}
-\contentsline {section}{\numberline {6}Diskussion}{9}{section.6}
-\contentsline {section}{\numberline {7}Fehlerbetrachtung}{9}{section.7}
+\contentsline {subsection}{\numberline {5.8}Energiebilanz}{10}{subsection.5.8}
+\contentsline {subsubsection}{\numberline {5.8.1}W\IeC {\"a}rmekapazit\IeC {\"a}ten}{10}{subsubsection.5.8.1}
+\contentsline {subsubsection}{\numberline {5.8.2}Enthalpien der Str\IeC {\"o}me}{10}{subsubsection.5.8.2}
+\contentsline {subsubsection}{\numberline {5.8.3}K\IeC {\"u}hlleistung}{11}{subsubsection.5.8.3}
+\contentsline {subsubsection}{\numberline {5.8.4}Berechnung der Heizleistung}{11}{subsubsection.5.8.4}
+\contentsline {section}{\numberline {6}Diskussion}{12}{section.6}
+\contentsline {section}{\numberline {7}Fehlerbetrachtung}{12}{section.7}

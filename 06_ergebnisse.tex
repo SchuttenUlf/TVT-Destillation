@@ -2,7 +2,13 @@
 \section{Ergebnisse und Berechnungen}
 \label{sec:ergebnisse}
 %Tabelle START
-
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/Bilanzraumm}
+	\caption{Schematische Abbildung der Rektifikationskolonne zur Darstellung der Bilanzräume}
+	\label{fig:Bilanzraumm}
+\end{figure}
+\FloatBarrier
 \subsection{Bilanzen}
 \subsubsection{Gesamte Kolonne}
 
@@ -84,7 +90,7 @@ Bei einem stationären Betrieb der Rektifikationskolonne im thermischen Gleichge
 \end{equation}
 
 \subsection{McCabe-Thiele-Diagramm}
-Nachdem die Ethanolanteile von Kopfprodukt, Feed und Sumpfprodukt als senkrechte Linien in das Gleichgewichtsdiagramm eingetragen sind, kann die Arbeitsgerade des Verstärkungsteils aus dem Punkt $y_o$(vgl.\eqref{gl:yo}) und dem Schnittpunkt von Diagonale und senkrechter auf $x_K$ durch Verbinden der beiden Punkte konstruiert werden. Die Abtriebsgerade folgt aus dem Schnittpunkt der Senkrechten über $x_F$ und der Verstärkungsgerade und dem Schnittpunkt der senkrechten über $x_S$ mit der Diagonalen. Die Stufenkonstruktion erfolgt ausgehend vom Schnittpunkt von Diagonale und senkrechter auf $x_K$, bis zum überschreiten des Schnittpunktes von Diagonale und senkrechter auf $x_S$. Die fertige Stufenkonstruktion ist in Abb. \ref{fig:McCabe} dargestellt. Es ergaben sich 6 theoretische Trennstufen. Diese Anzahl liegt weit unter der wirklichen Bodenzahl von 15.
+Nachdem die Ethanolanteile von Kopfprodukt, Feed und Sumpfprodukt als senkrechte Linien in das Gleichgewichtsdiagramm eingetragen sind, kann die Arbeitsgerade des Verstärkungsteils aus dem Punkt $y_o$(vgl.\eqref{gl:yo}) und dem Schnittpunkt von Diagonale und senkrechter auf $x_K$ durch Verbinden der beiden Punkte konstruiert werden. Die Abtriebsgerade folgt aus dem Schnittpunkt der Senkrechten über $x_F$ und der Verstärkungsgerade und dem Schnittpunkt der senkrechten über $x_S$ mit der Diagonalen. Die Stufenkonstruktion erfolgt ausgehend vom Schnittpunkt von Diagonale und senkrechter auf $x_K$, bis zum überschreiten des Schnittpunktes von Diagonale und senkrechter auf $x_S$. Die fertige Stufenkonstruktion ist in Abb. \ref{fig:McCabe} dargestellt. Es ergaben sich 6 theoretische Trennstufen. Diese Anzahl liegt weit unter der wirklichen Bodenzahl von 15. 
 
 \begin{flalign}\label{gl:yo}
 	y_o&=\frac{x_K}{\nu+1}\\
@@ -93,11 +99,52 @@ Nachdem die Ethanolanteile von Kopfprodukt, Feed und Sumpfprodukt als senkrechte
 \vspace{-2mm}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.7\linewidth]{img/McCabe}
-	\caption{Das Gleichgewichtsdiagramm des Versuch 1 mit der resultierenden Stufenkonstruktion}
+	\includegraphics[width=0.85\linewidth]{img/McCabe}
+	\caption{Das Gleichgewichtsdiagramm des Versuch 1 mit der resultierenden Stufenkonstruktion - von Hand}
 	\label{fig:McCabe}
 \end{figure}
 \FloatBarrier
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.85\linewidth]{img/McCabe2(5Stufen)}
+	\caption{Das Gleichgewichtsdiagramm des Versuch 2 mit der resultierenden Stufenkonstruktion - von Hand}
+	\label{fig:McCabe2}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.85\linewidth]{img/McCabe3(4Stufen)}
+	\caption{Das Gleichgewichtsdiagramm des Versuch 3 mit der resultierenden Stufenkonstruktion - von Hand}
+	\label{fig:McCabe3}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.85\linewidth]{img/VLE-MC-1}
+	\caption{Das Gleichgewichtsdiagramm des Versuch 1 mit der resultierenden Stufenkonstruktion - automatisch}
+	\label{fig:versuchsaufbau-ebull}
+\end{figure}
+\FloatBarrier
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.85\linewidth]{img/VLE-Mc-2}
+	\caption{Das Gleichgewichtsdiagramm des Versuch 2 mit der resultierenden Stufenkonstruktion - automatisch}
+	\label{fig:versuchsaufbau-ebull}
+\end{figure}
+\FloatBarrier
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.85\linewidth]{img/VLE-Mc-3}
+	\caption{Das Gleichgewichtsdiagramm des Versuch 3 mit der resultierenden Stufenkonstruktion - automatisch}
+	\label{fig:versuchsaufbau-ebull}
+\end{figure}
+\FloatBarrier
+
+
+
+
 \subsection{Energiebilanz}
 Um in die Gleichung \eqref{gl:energiebilanzKOLONNE} als Energiebilanz einsetzen zu können, müssen zuerst die Enthalpien der Ströme berechnet werden. Für diese wiederum ist die spezifische Wärmekapazität erforderlich. Außerdem muss die Kühl und Heizleistung bekannt sein. Die Berechnungen sind in den nachfolgenden Abschnitten detailliert aufgeführt. Die Gleichung \eqref{gl:Energie-eingesetzt} enthält die eingesetzten Zwischenergebnisse. Durch diese Energiebilanz lässt sich die Verlustwärme berechnen. Diese beträgt im ersten Versuch \SI{637,5}{\watt}.
 \begin{flalign}\label{gl:Energie-eingesetzt}
