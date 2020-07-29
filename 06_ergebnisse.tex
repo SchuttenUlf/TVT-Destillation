@@ -7,17 +7,17 @@
 \subsubsection{Gesamte Kolonne}
 
 \hspace{5mm}\textbf{Gesamtmolbilanz}\\
-\begin{equation}
+\begin{equation}\label{gl:gesamtmolbilanzKOLONNE}
 \dot{n}_F=\dot{n}_S+\dot{n}_K
 \end{equation}
 
 \hspace{5mm}\textbf{Komponentenbilanz - Ethanol} \\
-\begin{equation}
+\begin{equation}\label{gl:komponentenbilanzKOLONNE}
 \dot{n}_F*x_{1F}=\dot{n}_S*x_{1F}+\dot{n}_K+x_{1K}
 \end{equation}
 
 \hspace{5mm}\textbf{Energiebilanz}\\
-\begin{equation}
+\begin{equation}\label{gl:energiebilanzKOLONNE}
 \dot{H}_F+Q_{Heiz}=\dot{H}_K+\dot{H}_S+Q_{Kondensator}+Q_{Verlust}
 \end{equation}
 
@@ -38,3 +38,84 @@
 \begin{equation}
 \dot{H}_G=\dot{H}_K+\dot{H}_L+Q_{Kondensator}+Q_{Verlust}
 \end{equation}
+
+\subsection{Berechnung der Zusammensetzung aus der Dichte}
+
+Der Massenanteil an Ethanol der Proben wurde aus den gemessenen Dichten, durch einsetzen in eine Kalibrierfunktion berechnet. 
+Die gegebene Kalibrierfunktion ist in Gleichung \eqref{gl:massenanteilausdichte} aufgeführt. 
+
+\begin{equation}\label{gl:massenanteilausdichte}
+	\rho=-0,0079826782*(w_1[\%])^2-1,2901290063*(w_1[\%])+998,2
+\end{equation}
+\subsection{Umrechnung von Massen- in Molenbruch}
+
+Die zuvor erhaltenen Massenanteile werden nun, wie in Gleichung \eqref{gl:massINmol} gezeigt, in die entsprechenden Stoffmengenanteile umgerechnet.
+\begin{flalign}\label{gl:massINmol}
+	x_i&=\frac{\frac{w_i}{M_i}}{\sum\frac{w_j}{M_j}}\\
+			x_1&=\frac{\frac{0,845}{\SI{46,07}{\gram\per\mole}}}{\frac{0,845}{\SI{46,07}{\gram\per\mole}}+\frac{1-0,845}{\SI{18,02}{\gram\per\mole}}}\\
+			&=\underline{0,68}
+\end{flalign}
+\subsection{Berechnung des Molenstromes}
+
+Die Berechnung des Molenstromes der Komponente 1 (Ethanol) an den betrachteten stellen wird analog der Beispielrechnung \eqref{gl:molenstrom} vorgenommen. Dabei werden die gemessene Dichte, der gemessene Volumenstrom, der berechnete Massenanteil und die Molare Masse der betrachteten Komponente eingesetzt.\\
+\begin{flalign}\label{gl:molenstrom}
+	\dot{n}&=\frac{\rho*\dot{V}*w}{M}\\
+\dot{n}_{1K}	&=\frac{\rho_K*\dot{V}_K*w_{1K}}{M_1}\\
+	&=\frac{\SI{832,3}{\kilogram\per\cubic\meter}*\SI{0,372}{\liter\per\hour}*0,845}{\SI{46,07}{\gram\per\mole}}\\
+	&=\underline{\SI{5,67}{\mole\per\hour}}
+\end{flalign}
+Der gesamte Molenstrom an einer Stelle wird anschließend unter Zuhilfenahme des Molenbruchs der Komponente ausgerechnet.
+
+\begin{flalign}
+	\dot{n}_K&=\frac{\dot{n}_{1K}}{x_{1K}}\\
+	&=\frac{\SI{5,67}{\mole\per\hour}}{0,68}\\
+	&=\underline{\SI{8,34}{\mole\per\hour}}
+\end{flalign}
+\subsection{Berechnung des Molenstromes im Sumpf}
+
+Aus den Bilanzgleichungen \eqref{gl:gesamtmolbilanzKOLONNE} und \eqref{gl:komponentenbilanzKOLONNE} ergibt sich ein überbestimmtes Gleichungssystem. Die Berechnung des Molenstromes im Sumpf der Kolonne erfolgt durch Anwendung des Excel-Add-inns \emph{solver}. Der Feed-Molenstrom wird aufgrund der größten Fehleranfälligkeit als veränderliche Größe markiert. Nebenbedingung für die Lösung ist, dass  \eqref{gl:gesamtmolbilanzKOLONNE} und \eqref{gl:komponentenbilanzKOLONNE} den selben wert annehmen. Für die Daten des ersten Versuches folgt ein Sumpf-Molenstrom von \SI{245,335}{\mole\per\hour}. Der Feed-Molenstrom wird durch die Anwendung von ursprünglich \SI{225,39}{\mole\per\hour} auf \SI{236,99}{\mole\per\hour} angehoben. 
+
+\subsection{Berechnung der Heizleistung}
+
+Die Berechnung der Heizleistung in Watt beruht auf der verbrauchten Energie über einen gewissen Zeitraum. Definitionsgemäß kann daher die Heizleistung entsprechend der nachfolgenden Gleichung \eqref{gl:Qheizung} berechnet werden.
+
+\begin{flalign}\label{gl:Qheizung}
+	\dot{Q}_{Heizung}&=\frac{Q_{Heizung}[W*h]}{t[s]/3600}\\
+	&=\frac{\SI{358,3}{\watt\hour}}{\SI{1049}{\second}/3600}\\
+	&=\underline{\SI{1229,36}{\watt}}
+\end{flalign}
+
+\subsection{Rücklaufverhältnis}
+Bei einem stationären Betrieb der Rektifikationskolonne im thermischen Gleichgewicht ist auch der Volumenstrom an Kopfprodukt stationär. Daher können für das Rücklaufverhältnis auch die Zeiten eingesetzt werden, in welchen das Magnetventil den jeweiligen Weg freigibt. Dabei wurde die sich auf dem Verschlussstopfen gesammelte Flüssigkeitspfütze berücksichtigt.
+
+\begin{equation}
+	\nu=\frac{\dot{R}}{\dot{E}}=\frac{t_{\dot{R}}}{t_{\dot{E}}}=\frac{\SI{11,01}{\second}}{\SI{3,99}{\second}}=\underline{2,76}
+\end{equation}
+
+\subsection{McCabe-Thiele-Diagramm}
+Nachdem die Ethanolanteile von Kopfprodukt, Feed und Sumpfprodukt als senkrechte Linien in das Gleichgewichtsdiagramm eingetragen sind, kann die Arbeitsgerade des Verstärkungsteils aus dem Punkt $y_o$(vgl.\eqref{gl:yo}) und dem Schnittpunkt von Diagonale und senkrechter auf $x_K$ durch Verbinden der beiden Punkte konstruiert werden. Die Abtriebsgerade folgt aus dem Schnittpunkt der Senkrechten über $x_F$ und der Verstärkungsgerade und dem Schnittpunkt der senkrechten über $x_S$ mit der Diagonalen. Die Stufenkonstruktion erfolgt ausgehend vom Schnittpunkt von Diagonale und senkrechter auf $x_K$, bis zum überschreiten des Schnittpunktes von Diagonale und senkrechter auf $x_S$. Die fertige Stufenkonstruktion ist in Abb. \ref{fig:McCabe} dargestellt. Es ergaben sich 6 theoretische Trennstufen. Diese Anzahl liegt weit unter der wirklichen Bodenzahl von 15.
+
+\begin{flalign}\label{gl:yo}
+	y_o&=\frac{x_K}{\nu+1}\\
+	&= \frac{x_K}{\nu+1}=\frac{0,68}{2,76+1}=\underline{0,181}
+\end{flalign}
+\vspace{-2mm}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1\linewidth]{img/McCabe}
+	\caption{Das Gleichgewichtsdiagramm des Versuch 1 mit der resultierenden Stufenkonstruktion}
+	\label{fig:McCabe}
+\end{figure}
+
+\subsection{Energiebilanz}
+Um in die Gleichung \eqref{gl:energiebilanzKOLONNE} als Energiebilanz einsetzen zu können, müssen zuerst die Enthalpien der Ströme berechnet werden.
+\subsubsection{Wärmekapazitäten}
+Die Wärmekapazitäten der Mischungen, werden durch Wichtung der Wärmekapazitäten der Reinstoffe, bei der gemessenen Temperatur, mit den Molenbrüchen, nach Gleichung \eqref{gl:cp} berechnet. Die Wärmekapazität der Reinstoffe ist durch dir Regressionsgleichung \eqref{gl:regCP} und die tabellierten Konstanten A, B, C, D und E gegeben.
+\begin{equation}\label{gl:regCP}
+	cp\,\, [\SI{}{\joule\per\kilo\mole\per\kelvin}]=A+B*T+C*T^2+D*T^3+E*T^4
+\end{equation}
+\begin{flalign}\label{gl:cp}
+	\bar{c_p}(K)&=x_1*c_{p1}+x_2*c_{p2}\\
+	&=0,68*\SI{138673}{\joule\per\kilo\mole\per\kelvin}+(1-0,68)*\SI{75569}{\joule\per\kilo\mole\per\kelvin}\\
+	&=\underline{\SI{118481,84}{\joule\per\kilo\mole\per\kelvin}}
+\end{flalign}

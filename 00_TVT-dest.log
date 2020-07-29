@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  27 JUL 2020 11:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  27 JUL 2020 19:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2115,8 +2115,40 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 8.
 ) (./05_durchfuerung.tex)
-(./06_ergebnisse.tex [3]) (./07_diskussion.tex [4])
-(./011_fehlerbetrachtung.tex) [5]
+(./06_ergebnisse.tex [3]
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+[4]
+Underfull \hbox (badness 3590) in paragraph at lines 89--90
+\T1/lmr/m/n/10.95 ist auch der Vo-lu-men-strom an Kopf-pro-dukt sta-tio-när. Da
+-her kön-nen für das
+ []
+
+[5]
+Underfull \hbox (badness 1264) in paragraph at lines 96--97
+\T1/lmr/m/n/10.95 und senk-rech-ter auf $\OML/lmm/m/it/10.95 x[]$ \T1/lmr/m/n/1
+0.95 durch Ver-bin-den der bei-den Punk-te kon-stru-iert wer-den.
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 96--97
+\T1/lmr/m/n/10.95 Die Stu-fen-kon-struk-ti-on er-folgt aus-ge-hend vom Schnitt-
+punkt von Dia-go-na-le und
+ []
+
+<img/McCabe.png, id=41, 1417.295pt x 1053.9375pt>
+File: img/McCabe.png Graphic file (type png)
+ <use img/McCabe.png>
+Package pdftex.def Info: img/McCabe.png used on input line 105.
+(pdftex.def)             Requested size: 426.79135pt x 317.37373pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./07_diskussion.tex [6]) (./011_fehlerbetrachtung.tex) [7 <./img/McCabe.png>
+]
 \openout2 = `09_anhang.aux'.
 
  (./09_anhang.tex)
@@ -2134,26 +2166,30 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 219.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
  ) 
 Here is how much of TeX's memory you used:
- 43664 strings out of 493029
- 985981 string characters out of 6136234
- 1174894 words of memory out of 5000000
- 46459 multiletter control sequences out of 15000+600000
- 63923 words of font info for 51 fonts, out of 8000000 for 9000
+ 43725 strings out of 493029
+ 986816 string characters out of 6136234
+ 1181515 words of memory out of 5000000
+ 46508 multiletter control sequences out of 15000+600000
+ 84179 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,15n,81p,10374b,776s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm
-/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmm
-i10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on 00_TVT-dest.pdf (6 pages, 402225 bytes).
+ 64i,26n,81p,10374b,895s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcs
+c10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/l
+msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on 00_TVT-dest.pdf (8 pages, 505549 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

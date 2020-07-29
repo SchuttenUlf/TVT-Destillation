@@ -7,5 +7,14 @@
 \contentsline {subsection}{\numberline {5.1}Bilanzen}{4}{subsection.5.1}
 \contentsline {subsubsection}{\numberline {5.1.1}Gesamte Kolonne}{4}{subsubsection.5.1.1}
 \contentsline {subsubsection}{\numberline {5.1.2}Kolonnenkopf}{4}{subsubsection.5.1.2}
-\contentsline {section}{\numberline {6}Diskussion}{5}{section.6}
-\contentsline {section}{\numberline {7}Fehlerbetrachtung}{5}{section.7}
+\contentsline {subsection}{\numberline {5.2}Berechnung der Zusammensetzung aus der Dichte}{4}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Umrechnung von Massen- in Molenbruch}{4}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Berechnung des Molenstromes}{5}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Berechnung des Molenstromes im Sumpf}{5}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Berechnung der Heizleistung}{5}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}R\IeC {\"u}cklaufverh\IeC {\"a}ltnis}{6}{subsection.5.7}
+\contentsline {subsection}{\numberline {5.8}McCabe-Thiele-Diagramm}{6}{subsection.5.8}
+\contentsline {subsection}{\numberline {5.9}Energiebilanz}{6}{subsection.5.9}
+\contentsline {subsubsection}{\numberline {5.9.1}W\IeC {\"a}rmekapazit\IeC {\"a}ten}{6}{subsubsection.5.9.1}
+\contentsline {section}{\numberline {6}Diskussion}{7}{section.6}
+\contentsline {section}{\numberline {7}Fehlerbetrachtung}{7}{section.7}
