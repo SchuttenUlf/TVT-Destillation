@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  30 JUL 2020 09:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  30 JUL 2020 10:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2127,8 +2127,13 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 7.
 ) (./05_durchfuerung.tex)
+Underfull \hbox (badness 2302) in paragraph at lines 9--206
+[]\T1/lmr/m/n/10.95 Die An-la-ge wird her-un-ter-ge-fah-ren in-dem zu-erst die 
+Hei-zung ab-ge-schal-ten wird.
+ []
+
 (./06_ergebnisse.tex [3]
-<img/Bilanzraumm.png, id=26, 936.49875pt x 1082.0425pt>
+<img/Bilanzraumm.png, id=28, 936.49875pt x 1082.0425pt>
 File: img/Bilanzraumm.png Graphic file (type png)
 
 <use img/Bilanzraumm.png>
@@ -2157,7 +2162,7 @@ Underfull \hbox (badness 2837) in paragraph at lines 93--94
 punkt von Dia-go-na-le und
  []
 
-<img/McCabe.png, id=41, 1417.295pt x 1053.9375pt>
+<img/McCabe.png, id=42, 1417.295pt x 1053.9375pt>
 File: img/McCabe.png Graphic file (type png)
  <use img/McCabe.png>
 Package pdftex.def Info: img/McCabe.png used on input line 102.
@@ -2249,10 +2254,10 @@ Here is how much of TeX's memory you used:
  84179 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,26n,81p,10374b,1036s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
--mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/l
+m/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcs
 c10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pf
@@ -2262,7 +2267,7 @@ share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/l
 msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 00_TVT-dest.pdf (14 pages, 687061 bytes).
+Output written on 00_TVT-dest.pdf (14 pages, 692190 bytes).
 PDF statistics:
  128 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream
