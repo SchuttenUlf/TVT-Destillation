@@ -12,7 +12,7 @@
 \subsection{Bilanzen}
 \subsubsection{Gesamte Kolonne}
 
-\hspace{5mm}\textbf{Gesamtmolbilanz}\\
+\hspace{5mm}\textbf{Gesamtstoffmengenbilanz}\\
 \begin{equation}\label{gl:gesamtmolbilanzKOLONNE}
 \dot{n}_F=\dot{n}_S+\dot{n}_K
 \end{equation}
@@ -30,7 +30,7 @@
 
 \subsubsection{Kolonnenkopf}
 
-\hspace{5mm}\textbf{Gesamtmolbilanz}\\
+\hspace{5mm}\textbf{Gesamtstoffmengenbilanz}\\
 \begin{equation}
 \dot{n}_G=\dot{n}_L+\dot{n}_K
 \end{equation}
@@ -51,7 +51,7 @@ Der Massenanteil an Ethanol der Proben wurde aus den gemessenen Dichten, durch e
 Die gegebene Kalibrierfunktion ist in Gleichung \eqref{gl:massenanteilausdichte} aufgeführt. 
 
 \begin{equation}\label{gl:massenanteilausdichte}
-	\rho=-0,0079826782*(w_1[\%])^2-1,2901290063*(w_1[\%])+998,2
+	\rho \left[\si{\kg \per \raiseto{3}\meter}\right]=-0,0079826782*(w_1[\%])^2-1,2901290063*(w_1[\%])+998,2
 \end{equation}
 \subsection{Umrechnung von Massen- in Molenbruch}
 
@@ -79,11 +79,11 @@ Der gesamte Molenstrom an einer Stelle wird anschließend unter Zuhilfenahme des
 \end{flalign}
 \subsection{Berechnung des Molenstromes im Sumpf}
 
-Aus den Bilanzgleichungen \eqref{gl:gesamtmolbilanzKOLONNE} und \eqref{gl:komponentenbilanzKOLONNE} ergibt sich ein überbestimmtes Gleichungssystem. Die Berechnung des Molenstromes im Sumpf der Kolonne erfolgt durch Anwendung des Excel-Add-inns \emph{solver}. Der Feed-Molenstrom wird aufgrund der größten Fehleranfälligkeit als veränderliche Größe markiert. Nebenbedingung für die Lösung ist, dass  \eqref{gl:gesamtmolbilanzKOLONNE} und \eqref{gl:komponentenbilanzKOLONNE} den selben wert annehmen. Für die Daten des ersten Versuches folgt ein Sumpf-Molenstrom von \SI{227,27}{\mole\per\hour}. Der Feed-Molenstrom wird durch die Anwendung von ursprünglich \SI{225,39}{\mole\per\hour} auf \SI{235,60}{\mole\per\hour} angehoben. 
+Aus den Bilanzgleichungen \eqref{gl:gesamtmolbilanzKOLONNE} und \eqref{gl:komponentenbilanzKOLONNE} ergibt sich ein überbestimmtes Gleichungssystem. Die Berechnung des Molenstromes im Sumpf der Kolonne erfolgt durch Anwendung des Excel-Add-Ins \emph{solver}. Der Feed-Molenstrom wird aufgrund der größten Fehleranfälligkeit als veränderliche Größe markiert. Nebenbedingung für die Lösung ist, dass  \eqref{gl:gesamtmolbilanzKOLONNE} und \eqref{gl:komponentenbilanzKOLONNE} den selben Wert annehmen. Für die Daten des ersten Versuches folgt ein Sumpf-Molenstrom von \SI{227,27}{\mole\per\hour}. Der Feed-Molenstrom wird durch die Anwendung von ursprünglich \SI{225,39}{\mole\per\hour} auf \SI{235,60}{\mole\per\hour} angehoben. 
 
 
 \subsection{Rücklaufverhältnis}
-Bei einem stationären Betrieb der Rektifikationskolonne im thermischen Gleichgewicht ist auch der Volumenstrom an Kopfprodukt stationär. Daher können für das Rücklaufverhältnis auch die Zeiten eingesetzt werden, in welchen das Magnetventil den jeweiligen Weg freigibt. Dabei wurde die sich auf dem Verschlussstopfen gesammelte Flüssigkeitspfütze berücksichtigt.
+Bei einem stationären Betrieb der Rektifikationskolonne im thermischen Gleichgewicht ist auch der Volumenstrom am Kopfprodukt stationär. Daher können für das Rücklaufverhältnis auch die Zeiten eingesetzt werden, in welchen das Magnetventil den jeweiligen Weg freigibt. Dabei wurde die, sich auf dem Verschlussstopfen gesammelte, Flüssigkeitspfütze berücksichtigt.
 
 \begin{equation}
 	\nu=\frac{\dot{R}}{\dot{E}}=\frac{t_{\dot{R}}}{t_{\dot{E}}}=\frac{\SI{11,01}{\second}}{\SI{3,99}{\second}}=\underline{2,76}
@@ -156,7 +156,7 @@ Um in die Gleichung \eqref{gl:energiebilanzKOLONNE} als Energiebilanz einsetzen 
 \subsubsection{Wärmekapazitäten}
 Die Wärmekapazitäten der Mischungen, werden durch Wichtung der Wärmekapazitäten der Reinstoffe, bei der gemessenen Temperatur, mit den Molenbrüchen, nach Gleichung \eqref{gl:cp} berechnet. Die Wärmekapazität der Reinstoffe ist durch dir Regressionsgleichung \eqref{gl:regCP} und die tabellierten Konstanten A, B, C, D und E gegeben.
 \begin{equation}\label{gl:regCP}
-	cp\,\, [\SI{}{\joule\per\kilo\mole\per\kelvin}]=A+B*T+C*T^2+D*T^3+E*T^4
+	cp\,\, \left[\SI{}{\joule\per\kilo\mole\per\kelvin}\right]=A+B*T+C*T^2+D*T^3+E*T^4
 \end{equation}
 \begin{flalign}\label{gl:cp}
 	\bar{c_p}(K)&=x_1*c_{p1}+x_2*c_{p2}\\
@@ -182,8 +182,8 @@ Die Wärmekapazitäten der Mischungen, werden durch Wichtung der Wärmekapazitä
 
 \begin{flalign}
 	\dot{Q}&=\dot{m}*c_p*\Delta T\\
-	&=(\rho*\dot{V})*c_p*(T_\omega-T_\alpha)\\
-	&=(\SI{999,38}{\kilogram\per\cubic\meter}*\SI{28,25e-3}{\cubic\meter\per\hour})*\SI{4200}{\joule\per\kilogram\per\kelvin}*(\SI{19,45}{\degreeCelsius}-\SI{13,3}{\degreeCelsius})*\si{\kelvin}\\
+	&=\rho*\dot{V}*c_p*(T_\omega-T_\alpha)\\
+	&=\SI{999,38}{\kilogram\per\cubic\meter}*\SI{28,25e-3}{\cubic\meter\per\hour}*\SI{4200}{\joule\per\kilogram\per\kelvin}*(\SI{19,45}{\degreeCelsius}-\SI{13,3}{\degreeCelsius})*\si{\kelvin}\\
 	&=\underline{\SI{202,55}{\watt}}
 \end{flalign}
 \subsubsection{Berechnung der Heizleistung}
