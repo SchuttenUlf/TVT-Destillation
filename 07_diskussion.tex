@@ -5,3 +5,39 @@
 Die Zahl der theoretischen Trennstufen aus der Stufenkonstruktion im McCabe-Thiele-Diagramm nimmt mit sinkender Kopfproduktreinheit ab. Wo für den Versuch 1 noch 6 Stufen konstruiert wurden, waren für den Versuch 2 nur noch 5 und für den Versuch noch 4 Stufen nötig. Natürlich blieb die Bodenzahl in der Versuchskolonne gleich. Die wirkliche Anzahl der Böden liegt immer weit über der theoretischen Zahl.
 
 Aus den Berechnungen geht hervor, dass der Kopfproduktstrom bei sinkendem Rücklaufverhältnis ansteigt. Mit dem Rücklaufverhältnis sinkt aber auch die Konzentration an Leichtsieder im Produkt.
+
+Der Vergleich der selbst berechneten Werte mit denen aus dem Programm VLE in Tabelle \ref{tab:Vergleich} ergibt, dass sich die Ergebnisse im großen und ganzen sehr ähneln. Die größten Abweichungen treten bei der Konstruktion des Mc-Cabe-Thiele Diagramms auf. Hier wurde eine theoretische Stufenzahl von 6, anstelle der 10 von VLE ermittelt. Das Ergebnis des Computerprogramms ist deutlich vertrauenswürdiger, da dabei die Lösung numerisch erfolgte. Die zeichnerische Lösung birgt durch die Ungenauigkeiten der Skalen ein hohes Potential für Abweichungen. Außerdem fällt auf, dass die Temperaturen am Kolonnenkopf um einige Kelvin höher sind als es durch das Programm prognostiziert wurde.
+
+Der berechnete Wärmeverlust entspricht mit den in Gleichung \eqref{gl:Energie-eingesetzt} berechneten \SI{637,5}{\watt} 52\% der Heizleistung. Dies ist aufgrund der vielen un-isolierten Bereiche an der Kolonne plausibel. Die Korrektur des Rücklaufverhältnisses war in den gegebenen Werten bereits erfolgt.
+
+Das Ausgleichen der Stoffbilanz mittels des \emph{solver}, beruht auf der Annahme, dass die Messung des Kopfproduktvolumenstromes fehlerfrei ist.
+
+\begin{table}[h!]
+	\centering
+	\caption{Vergleich der Ergebnisse aus händischer Berechnung zu den Ergebnissen des Programms VLE}
+	\label{tab:Vergleich}
+	%\resizebox{12.6cm}{!}{
+	\begin{tabular}{|c|c|c|c|c|c|}
+		\hline
+		Versuch Nr. &Rücklaufverhältnis &$x_{1K}$ &McCabe-Thiele Stufenzahl & $\vartheta$(Sumpf)[\si{\degreeCelsius}] &$\vartheta$(Kopf) [\si{\degreeCelsius}] \\
+		\hline
+			\multicolumn{6}{|c|}{gemessene und durch VLE berechnete Werte}      \\
+		\hline
+		1        & 2,76 & 0,68 & 10 & 99,64 & 78,71 \\
+		2        & 2,26 & 0,49 & 6  & 99,48 & 79,89 \\
+		3        & 1,76 & 0,38 & 5  & 99,41 & 80,80 \\
+		\hline
+		\multicolumn{6}{|c|}{gemessene und händisch bestimmte Werte}      \\
+		\hline
+		1        & 2,76 & 0,68 & 6  & 99,05 & 78,9  \\
+		2        & 2,26 & 0,49 & 5  & 98,8  & 82,25 \\
+		3        & 1,76 & 0,38 & 4  & 98,8  & 85 \\
+		\hline
+		
+	\end{tabular}
+	%}
+\end{table}
+\FloatBarrier
+\vspace*{-2.5mm}
+%Tabelle Ende
+Das Konzentrationsprofil in Ober- und Untersäule lässt sich ebenfalls aus den Gleichgewichtsdiagrammen ableiten. Dazu wird Anzahl und Form der Stufen links und rechts von der Feedkonzentration betrachtet. Es ergibt sich, dass die Konzentrationssprünge in der Obersäule, in diesem Experiment, immer größer sind als die in der Untersäule. Eine hohe Reinheit des Kopfprodukts und kleine Rücklaufverhältnisse bewirken mehr Stufen in der Obersäule, während sehr geringe Leichtsiederkonzentrationen in Feed und Sumpf besonders für eine hohe Stufenzahl der Untersäule verantwortlich sind. Die Konzentrationsprünge zwischen den Stufen sind in der Obersäule besonders groß. Das ist schon an der Gleichgewichtskurve zu erkennen. Je weiter sich diese von der Diagonalen weg wölbt, desto besser lässt sich ein Gemisch destillieren/ rektifizieren. Ein wirkliches Konzentrationsprofil lässt sich aus den gegebenen Daten jedoch nicht ableiten. Dazu wären die Temperaturen auf den einzelnen Böden nötig, um aus den Siedepunkten die genaue Zusammensetzung auf den einzelnen Glockenböden abzuleiten.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  29 JUL 2020 20:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  30 JUL 2020 09:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2215,7 +2215,12 @@ Overfull \hbox (29.88324pt too wide) in paragraph at lines 5--6
 on-struk-ti-on im McCabe-Thiele-Diagramm
  []
 
-) (./011_fehlerbetrachtung.tex) [12]
+
+Overfull \hbox (64.63344pt too wide) in paragraph at lines 20--39
+ [][] 
+ []
+
+) [12] (./011_fehlerbetrachtung.tex) [13]
 \openout2 = `09_anhang.aux'.
 
  (./09_anhang.tex)
@@ -2237,13 +2242,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
  ) 
 Here is how much of TeX's memory you used:
- 43765 strings out of 493029
- 987665 string characters out of 6136234
- 1188104 words of memory out of 5000000
- 46542 multiletter control sequences out of 15000+600000
+ 43768 strings out of 493029
+ 987719 string characters out of 6136234
+ 1188224 words of memory out of 5000000
+ 46545 multiletter control sequences out of 15000+600000
  84179 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,26n,81p,10374b,895s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,26n,81p,10374b,1036s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -2257,10 +2262,10 @@ share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/l
 msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 00_TVT-dest.pdf (13 pages, 681094 bytes).
+Output written on 00_TVT-dest.pdf (14 pages, 687061 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 128 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
