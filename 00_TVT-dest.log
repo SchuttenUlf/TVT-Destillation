@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  30 JUL 2020 10:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  30 JUL 2020 12:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1814,7 +1814,11 @@ LaTeX Warning: Label `fig:versuchsaufbau-ebull' multiply defined.
 
 LaTeX Warning: Label `fig:versuchsaufbau-ebull' multiply defined.
 
-(./09_anhang.aux) (./08_literatur.aux))
+(./09_anhang.aux
+
+LaTeX Warning: Label `tab:Einwaagen' multiply defined.
+
+) (./08_literatur.aux))
 \openout1 = `00_TVT-dest.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
@@ -2221,14 +2225,20 @@ on-struk-ti-on im McCabe-Thiele-Diagramm
  []
 
 
-Overfull \hbox (64.63344pt too wide) in paragraph at lines 20--39
+Overfull \hbox (28.45786pt too wide) in paragraph at lines 19--39
  [][] 
  []
 
-) [12] (./011_fehlerbetrachtung.tex) [13]
+) (./011_fehlerbetrachtung.tex [12]) [13]
 \openout2 = `09_anhang.aux'.
 
- (./09_anhang.tex)
+ (./09_anhang.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14
+
+]) [15]
 \openout2 = `08_literatur.aux'.
 
  (./08_literatur.tex
@@ -2247,13 +2257,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
  ) 
 Here is how much of TeX's memory you used:
- 43768 strings out of 493029
- 987719 string characters out of 6136234
- 1188224 words of memory out of 5000000
- 46545 multiletter control sequences out of 15000+600000
+ 43772 strings out of 493029
+ 987773 string characters out of 6136234
+ 1199425 words of memory out of 5000000
+ 46549 multiletter control sequences out of 15000+600000
  84179 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,26n,81p,10374b,1036s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,26n,81p,10374b,1060s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/l
@@ -2267,10 +2277,10 @@ share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/l
 msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 00_TVT-dest.pdf (14 pages, 692190 bytes).
+Output written on 00_TVT-dest.pdf (16 pages, 702166 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 134 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
